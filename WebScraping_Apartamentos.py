@@ -20,7 +20,7 @@ def get_system():
     sleep(2)
 
     cont = 5
-
+##  provando para o Guilherme q eu aprendi
     for i in range(5):
         cont = cont + 1
         if cont>7:

@@ -6,8 +6,8 @@ def enviar_email():
     smtp_ssl_host = 'smtp.gmail.com'
     smtp_ssl_port = 465
     # username ou email para logar no servidor
-    username = 'mateus0804@gmail.com'
-    password = '@Enguff20.1'
+    username = 'xxxx'
+    password = 'xxxx'
 
     from_addr = 'xxxx'
     to_addrs = ['xxxx']

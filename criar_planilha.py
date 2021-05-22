@@ -1,6 +1,7 @@
 import openpyxl
 import WebScraping_Apartamentos as ws
 
+
 def criar_planilha():
     wb = openpyxl.Workbook()
 

@@ -104,7 +104,3 @@ def raspagem_dados(self):
             sleep(1)
         except:
             print("Não há mais páginas")
-
-
-
-

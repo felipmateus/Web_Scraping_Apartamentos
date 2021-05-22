@@ -9,8 +9,8 @@ def enviar_email():
     username = 'mateus0804@gmail.com'
     password = '@Enguff20.1'
 
-    from_addr = 'mateus0804@gmail.com'
-    to_addrs = ['felipmateus8@gmail.com']
+    from_addr = 'xxxx'
+    to_addrs = ['xxxx']
 
     # a biblioteca email possuí vários templates
     # para diferentes formatos de mensagem

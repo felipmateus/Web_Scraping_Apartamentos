@@ -2,7 +2,7 @@ import openpyxl
 import WebScraping_Apartamentos as ws
 
 
-def criar_planilha():
+def criar_planilha_excel():
     wb = openpyxl.Workbook()
 
     wb['Sheet'].title = "Report Automation"

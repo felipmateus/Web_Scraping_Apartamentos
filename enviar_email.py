@@ -6,11 +6,11 @@ def enviar_email():
     smtp_ssl_host = 'smtp.gmail.com'
     smtp_ssl_port = 465
     # username ou email para logar no servidor
-    username = 'xxxx'
-    password = 'xxxx'
+    username = 'webscraping.apartamentos@gmail.com'
+    password = 'webscraping102030'
 
-    from_addr = 'xxxx'
-    to_addrs = ['xxxx']
+    from_addr = 'webscraping.apartamentos@gmail.com'
+    to_addrs = ['webscraping.apartamentos@gmail.com']
 
     # a biblioteca email possuí vários templates
     # para diferentes formatos de mensagem

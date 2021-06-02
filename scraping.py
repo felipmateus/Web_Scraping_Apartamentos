@@ -38,7 +38,7 @@ def raspagem_dados():
             valores_aluguel = driver.find_elements_by_xpath(
                 '//p[@class="simple-card__price js-price heading-regular heading-regular__bolder align-left"]')
             for valor_aluguel in valores_aluguel:
-                valores_aluguel_text.append(valor_aluguel.text.split("R$")[1].split("/mês")[0])
+                valores_aluguel_text.append(float((valor_aluguel.text.split("R$")[1].split("/mês")[0])))
             #  sleep(1)
         except:
             print("Não foi possível raspar os valores de aluguel da página " + str(cont))
@@ -46,7 +46,7 @@ def raspagem_dados():
         try:
             valores_iptu = driver.find_elements_by_xpath("//li[@class='card-price__item iptu text-regular']")
             for valor_iptu in valores_iptu:
-                valores_iptu_text.append(valor_iptu.text.split("IPTU R$")[1])
+                valores_iptu_text.append((float(valor_iptu.text.split("IPTU R$")[1])))
             # sleep(1)
         except:
             print("Não foi possível obter os valores de IPTU da página " + str(cont))
@@ -65,7 +65,7 @@ def raspagem_dados():
             valores_condominio = driver.find_elements_by_xpath(
                 '//li[@class="card-price__item condominium text-regular"]')
             for valor_condominio in valores_condominio:
-                valores_condominio_text.append(valor_condominio.text.split("condomínio R$")[1])
+                valores_condominio_text.append((float(valor_condominio.text.split("condomínio R$")[1])))
             # sleep(1)
         except:
             print("Não foi possível obter os valores dos condomínios da página " + str(cont))

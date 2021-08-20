@@ -10,7 +10,7 @@ It`s a simple webscraping for find an ideal apartament
 
 **2. Selenium**
 
-*Used to automation the bot for webscraping
+* Used to automation the bot for webscraping
 
 **3. Openpyxl**
 

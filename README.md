@@ -18,6 +18,6 @@ It`s a simple webscraping for find an ideal apartament
 
 **4. Smtplib**
 
-*Used to send an email with the best appartament
+* Used to send an email with the best appartament
 
 
